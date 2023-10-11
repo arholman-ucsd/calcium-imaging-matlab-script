@@ -418,7 +418,7 @@ variable_labels = [];
 for i=1:length(alltau_ms_norm)
     horiz = horzcat(alltau_ms_norm{i});
     A(i, 1:length(horiz)) = horiz;
-    name = 'tau(ms)';
+    name = 'tau(s)';
     variable_labels = [variable_labels, sprintf("%1$s_%2$s", filenames{i}, name)];
     clear horiz
 end
@@ -426,7 +426,7 @@ for i=1:length(AllTimetoPeaks)
     horiz = horzcat(AllTimetoPeaks{i});
     new = i+length(alltau_ms_norm);
     A(new, 1:length(horiz)) = horiz;
-    name = 'timetopeak(ms)';
+    name = 'timetopeak(s)';
     variable_labels = [variable_labels, sprintf("%1$s_%2$s", filenames{i}, name)];
     clear horiz
 end
@@ -442,7 +442,7 @@ for i=1:length(Cycle_Length)
     horiz = horzcat(Cycle_Length{i});
     new = i+length(alltau_ms_norm)+length(AllTimetoPeaks)+length(deltaF_diff);
     A(new, 1:length(horiz)) = horiz;
-    name = 'cyclelength(ms)';
+    name = 'cyclelength(s)';
     variable_labels = [variable_labels, sprintf("%1$s_%2$s", filenames{i}, name)];
     clear horiz
 end
@@ -450,7 +450,7 @@ for i=1:length(Widths)
     horiz = horzcat(Widths{i});
     new = i+length(alltau_ms_norm)+length(AllTimetoPeaks)+length(deltaF_diff)+length(Cycle_Length);
     A(new, 1:length(horiz)) = horiz;
-    name = 'widths(ms)';
+    name = 'widths(s)';
     variable_labels = [variable_labels, sprintf("%1$s_%2$s", filenames{i}, name)];
     clear horiz
 end
