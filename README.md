@@ -9,7 +9,10 @@ Matlab script for the analysis of calcium imaging linescan data
 ## Step 4: Calculate and plot delta F/F0 for first peak
 (plot)
 ## Step 5: Calculate tau value (63% time to peak) 
-![alt text](https://github.com/arholman-ucsd/calcium-imaging-matlab-script/blob/main/2D_example_001.tif)
+![alt text](https://github.com/arholman-ucsd/calcium-imaging-matlab-script/blob/main/Step 2 - Peak Plot.png)
+## Step 6: Calculate cycle length and time to peak
+## Step 7: Export metrics to .csv
+
 
 
 
