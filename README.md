@@ -2,7 +2,8 @@
 Matlab script for the analysis of calcium imaging linescan data
 
 ## Step 1: Set paths and open files
-Use the following files as an example:
+Use the following files to test the code:
+
 https://github.com/arholman-ucsd/calcium-imaging-matlab-script/blob/main/2D_example_001.tif
 https://github.com/arholman-ucsd/calcium-imaging-matlab-script/blob/main/2D_example_003.tif
 https://github.com/arholman-ucsd/calcium-imaging-matlab-script/blob/main/3D_example_001.tif
