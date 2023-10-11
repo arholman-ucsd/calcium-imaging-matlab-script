@@ -1,2 +1,6 @@
-# calcium-imaging-matlab-script
-Matlab script for the analysis of calcium imaging data
+# Calcium Imaging Matlab Script
+Matlab script for the analysis of calcium imaging linescan data
+
+# dd
+
+
