@@ -62,8 +62,8 @@ for x=1:length(images)
     Widths{x} = width_fin;
     
     % plot to make sure peaks and minima are correct
-    sub = length(images)/12;
-    subplot(ceil(sub),12,x); 
+    sub = length(images)/4;
+    subplot(ceil(sub),4,x); 
     hold on
         plot(y, z)
         title('Resting and Maximum Points');
