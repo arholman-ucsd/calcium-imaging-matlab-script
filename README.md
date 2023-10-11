@@ -2,6 +2,11 @@
 Matlab script for the analysis of calcium imaging linescan data
 
 ## Step 1: Set paths and open files
+Use the following files as an example:
+https://github.com/arholman-ucsd/calcium-imaging-matlab-script/blob/main/2D_example_001.tif
+https://github.com/arholman-ucsd/calcium-imaging-matlab-script/blob/main/2D_example_003.tif
+https://github.com/arholman-ucsd/calcium-imaging-matlab-script/blob/main/3D_example_001.tif
+https://github.com/arholman-ucsd/calcium-imaging-matlab-script/blob/main/3D_example_002.tif
 
 ## Step 2: Find peaks and minima
 ![alt text](https://github.com/arholman-ucsd/calcium-imaging-matlab-script/blob/main/Step%202%20-%20Peak%20Plot.png)
