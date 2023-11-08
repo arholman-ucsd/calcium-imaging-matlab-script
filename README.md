@@ -1,5 +1,5 @@
-# Calcium Imaging Matlab Script
-Matlab script for the analysis of calcium imaging linescan data
+# Calcium Imaging MATLAB Script (Run time: 5 min)
+MATLAB script for the analysis of calcium imaging linescan data
 
 ## Step 1: Set paths and open files
 Use the following files to test the code:
@@ -25,6 +25,11 @@ https://github.com/arholman-ucsd/calcium-imaging-matlab-script/blob/main/3D_exam
 
 ## Step 7: Export metrics to .csv
 https://github.com/arholman-ucsd/calcium-imaging-matlab-script/blob/main/ca2%2B_data.csv
+
+### System Requirements
+MATLAB_R2023a
+
+
 
 
 
